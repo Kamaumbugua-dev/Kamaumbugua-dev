@@ -1,0 +1,48 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			string weekday=Console.ReadLine();
+			
+			
+			if (weekday=="Monday"){
+				Console.WriteLine("Wear a Red shirt");
+			}
+			else if( weekday=="Tuesday"){
+			   Console.WriteLine("Wear a Red shirt");
+			}
+				
+			else if(weekday=="Wednesday"){
+				Console.WriteLine("Wear a Black shirt");
+			}
+			
+			
+			
+			else if (weekday=="Thursday"){
+				Console.WriteLine("Wear a Black shirt");
+			}
+			
+			else if(weekday=="Friday"){
+				Console.WriteLine("Wear a Red shirt");
+			}
+			else if(weekday=="Saturday"){
+				Console.WriteLine("Wear a Red shirt");
+			}
+			
+			else if (weekday=="Sunday"){
+				Console.WriteLine("Wear a Black shirt");
+			}
+			else{
+				Console.WriteLine("Unknown");
+			}
+		}
+	}
+}
